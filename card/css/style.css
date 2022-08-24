@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+body{
+    justify-content: center;
+    align-content: center;
+    background-color: antiquewhite;
+}
+ .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+
+
+   
+ 
+
+ .flex-right{
+   background-color: whitesmoke;
+    width: 350px;
+    height: 400px;
+    padding: 2rem; 
+    
+ }
+
+ @media (max-width : 700px) {
+    .flex-container {
+    flex-direction: column;
+ }
+}
+
+h1{
+    margin: 1rem;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: medium;
+margin-left: 1rem;
+}
+
+p{
+    margin-left: 1rem;
+}
+strong{
+    font-size: 2rem;
+margin-right: 2rem;
+margin-left: 1rem;
+color: green;
+}
+strike{
+    font-size: 1.5rem;
+}
+button{
+   
+   color: whitesmoke;
+  background-color: green ;
+    margin-left: 3rem;
+   margin-top: 2rem;
+   padding-inline: 4rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-radius: 0.5rem;
+   
+}
