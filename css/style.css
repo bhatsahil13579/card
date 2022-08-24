@@ -64,8 +64,8 @@ button{
    
    color: whitesmoke;
   background-color: green ;
-    margin-left: 3rem;
-   margin-top: 2rem;
+    margin-inline: 1.5rem;
+    margin-top:1rem ;
    padding-inline: 4rem;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
