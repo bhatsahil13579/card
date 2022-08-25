@@ -38,8 +38,14 @@ body{
  }
 }
 
+@media ( max-width : 700px){
+    .flex-container{
+        margin-top: 10px;
+    }
+}
+
 h1{
-    margin: 1rem;
+    margin : 1rem;
 }
 
 h2{
